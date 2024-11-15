@@ -24,6 +24,15 @@ body {
     flex-basis: calc(33% - 6rem);
 }
 
+.cartao__conteudo {
+    background-color: var(--card-front-color);
+    text-align: center;
+    /* background-color: aquamarine; */
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
+}
+
 .cartao__conteudo h3 {
     color: var(--text-color);
     border: 1px solid var(--text-color);
